@@ -51,37 +51,26 @@ a {
   background-color: rgb(59, 59, 59);
   color: #fff;
 }
-/* 
-.block {
-  color: black;
-  background-color: white;
-  font-size: 20px;
-  border-radius: 0 20px 20px 20px;
-  font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  font-weight: normal;
-  text-decoration: none;
-  box-sizing: border-box;
-  outline: 2px solid rgba(22, 22, 22, 0.356);
-} */
 
 .img {
-  width: 13%;
-  box-sizing: border-box;
+  width: 14%;
+  box-sizing:border-box;
   cursor: pointer;
 }
 
 .line {
   display: inline-block;
 }
-.one {
-  border-image-width: 100px;
-  width: 1200px;
+
+.bg {
+  background: url(../img/skype1.webp) no-repeat;
+  background-position: right;
+  width: 1300px;
   height: 500px;
   padding: 10px 10px;
   border-radius: 0 30px 30px 30px;
-  overflow: hidden;
-  /* box-sizing: content-box;
-  display: inline-block; */
+  box-sizing: content-box;
+  display: inline-block;
 }
 
 .two {
@@ -99,17 +88,11 @@ a {
   width: 600px;
 }
 
-.block_one {
-  color: rgb(17, 17, 17);
-  font-size: 20px;
-  border-radius: 0 20px 20px 20px;
-  font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  font-weight: normal;
-  text-decoration: none;
-  width: 1200px;
-  /* height: 500px; */
+.container {
+  width: 1400px;
+  height: 900px;
   display: inline-block;
-  box-sizing: content-box;
+  /* box-sizing: content-box; */
 }
 
 .block_second {
@@ -124,8 +107,6 @@ a {
   display: inline-block;
   box-sizing: content-box;
   margin-right: 20px;
-  float: left;
-  clear: both;
 }
 
 .block_third {
@@ -140,40 +121,49 @@ a {
   display: inline-block;
   box-sizing: content-box;
   margin-left: 20px;
-  clear: both;
 }
 
 .help {
+  color: rgb(58, 58, 58);
   text-align: left;
-  padding: 10px 20px 10px 10px;
+  padding: 10px 10px;
   margin: 0px;
-  font-size: 30px;
+  font-size: 40px;
+  font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 }
 
 .skype {
+  color: rgb(58, 58, 58);
   text-align: left;
-  padding: 20px 10px 10px 20px;
+  padding: 10px 10px;
   margin: 0px;
   font-size: 20px;
+  font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
   color: rgba(29, 26, 26, 0.856);
 }
 
 .chat {
+  color: rgb(58, 58, 58);
   font-style: normal;
-  font-size: 19px;
-  text-align: left;
-  margin: 0px;
-  padding: 10px 20px 100px 10px;
-  display: inline-block;
-}
-
-.conditions {
-  font-style: normal;
-  font-size: 12px;
+  font-size: 25px;
+  font-weight: bold;
   text-align: left;
   margin: 0px;
   padding: 10px 10px;
   display: inline-block;
+  font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+.conditions {
+  color: rgb(58, 58, 58);
+  font-style: normal;
+  font-size: 14px;
+  text-align: left;
+  margin: 0px;
+  padding: 10px 10px;
+  display: inline-block;
+  font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  text-decoration: rgb(29, 28, 28);
 }
 
 .number {
