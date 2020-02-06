@@ -134,7 +134,7 @@ a {
   box-sizing: content-box;
 }
 
-.name {
+.help {
   text-align: center;
   padding: 10px 10px;
   margin: 0px;
@@ -149,7 +149,7 @@ a {
   color: rgba(29, 26, 26, 0.856);
 }
 
-.mail {
+.chat {
   font-style: normal;
   font-size: 19px;
   text-align: center;
@@ -157,7 +157,7 @@ a {
   padding: 10px 10px;
 }
 
-.change {
+.conditions {
   font-style: normal;
   font-size: 18px;
   text-align: center;
