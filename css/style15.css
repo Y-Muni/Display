@@ -83,7 +83,7 @@ a {
 
 .container {
   width: 1400px;
-  height: 900px;
+  height: 550px;
   display: inline-block;
 }
 
@@ -99,6 +99,7 @@ a {
   display: inline-block;
   box-sizing: content-box;
   margin-right: 20px;
+  float: left;
   overflow: hidden;
 }
 
