@@ -87,6 +87,7 @@ a {
   display: inline-block;
 }
 
+/* Честно говоря не уверена, что правильно вписала сво-во float? но вроде примерно поняла как с ним работать. Может быть еще можно было бы его где-то здесь применить?*/
 .block {
   color: rgb(0, 0, 0);
   background-color: rgb(230, 228, 228);
@@ -99,6 +100,7 @@ a {
   display: inline-block;
   box-sizing: content-box;
   margin-right: 20px;
+  margin-bottom: 10px;
   float: left;
   overflow: hidden;
 }
